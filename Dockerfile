@@ -9,4 +9,5 @@ RUN apt-get install -yq \
       openssl gnupg \
       phantomjs \
 RUN gem install bundler
-RUN apt-get install libyaml-dev
+RUN apt-get install -yq libyaml-dev
+RUN apt-get install -yq nodejs
