@@ -7,6 +7,6 @@ RUN apt-get install -yq \
       libqtwebkit-dev \
       postgresql-common libpq-dev \
       openssl gnupg \
-      phantomjs
-
+      phantomjs \
 RUN gem install bundler
+RUN apt-get install libyaml-dev
